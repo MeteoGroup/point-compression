@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+build/
+target/
+.idea/compiler.xml
+.idea/copyright/
+.idea/misc.xml
+.idea/modules.xml
+.idea/point-compression.iml
+.idea/workspace.xml
+.idea/libraries/
