@@ -38,16 +38,6 @@ In order to use, simply add these lines to your project's **pom.xml**
        <groupId>org.meteogroup</groupId>
        <artifactId>point-compression</artifactId>
        <version>1.0-SNAPSHOT</version>
-       <exclusions>
-         <exclusion>
-           <groupId>org.slf4j</groupId>
-           <artifactId>slf4j-api</artifactId>
-         </exclusion>
-         <exclusion>
-           <groupId>org.slf4j</groupId>
-           <artifactId>slf4j-log4j12</artifactId>
-        </exclusion>
-       </exclusions>
   </dependency>
 ```
 
