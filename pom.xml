@@ -11,6 +11,7 @@
     list of points by bing point compression algorithm
   </description>
   <url>http://www.meteogroup.org</url>
+  <name>point-compression</name>
 
 
   <licenses>
