@@ -9,6 +9,10 @@ Java tool for compress and decompress list of points by bing point compression a
 
 [![License](https://img.shields.io/:license-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
+##### Build Status
+
+[![Build Status](https://travis-ci.org/MeteoGroup/point-compression.svg?branch=master)](https://travis-ci.org/MeteoGroup/point-compression)
+
 ## About algorithm
 
 When the number of points (latitude and longitude pairs) becomes too large, the length of the URL request may exceed limits 
