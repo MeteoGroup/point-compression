@@ -1,29 +1,21 @@
 package org.meteogroup.pointcompression;
 
-public class Point {
+public final class Point {
 
-  private float lat;
-  private float lon;
+  private final double lat;
+  private final double lon;
 
-  public Point(float lat, float lon) {
+  public Point(double lat, double lon) {
     this.lat = lat;
     this.lon = lon;
   }
 
-  public float getLat() {
+  public double getLat() {
     return lat;
   }
 
-  public void setLat(float lat) {
-    this.lat = lat;
-  }
-
-  public float getLon() {
+  public double getLon() {
     return lon;
-  }
-
-  public void setLon(float lon) {
-    this.lon = lon;
   }
 
   @Override
