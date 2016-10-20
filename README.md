@@ -41,7 +41,7 @@ In order to use, simply add these lines to your project's **pom.xml**
  <dependency>
        <groupId>org.meteogroup</groupId>
        <artifactId>point-compression</artifactId>
-       <version>1.0-SNAPSHOT</version>
+       <version>1.0</version>
   </dependency>
 ```
 
