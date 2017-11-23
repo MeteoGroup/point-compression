@@ -23,6 +23,8 @@ uncompressed elevation data. There is no need for a decompression algorithm. Thi
 If you are requesting elevation data for more than 400 points, make an HTTP POST request. The following example shows the difference 
 in size between a list of points and the equivalent compressed string
 
+**Note:** Due to the algorithm lat/lon rounding the close enough points (distance ~ 0.009076 km) could be dropped. This can be influenced through changing of the _Multiplier_ constant (there is a direct correlation between the how big the multiplier is and how accurate is the rounding) The obvious drawback is: The bigger the _Multiplier_ - the bigger the size of the compressed points final payload, but it grows slowly and linearly.
+
 **Original Values:**
 
 points=35.894309002906084,-110.72522000409663,35.893930979073048,-110.72577999904752,35.893744984641671,-110.72606003843248,35.893366960808635,-110.72661500424147
